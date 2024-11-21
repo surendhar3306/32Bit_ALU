@@ -73,13 +73,16 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+
 ### Fig 3: Setting Multi-step simulation
+![Screenshot 2024-11-18 112115](https://github.com/user-attachments/assets/32880f56-8810-4307-b70c-4518c44c5ada)
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
 
 ### Fig 4:cds.lib file Creation
+![Screenshot 2024-11-18 112201](https://github.com/user-attachments/assets/480fcc31-587e-4428-9a31-020a1f246f72)
 
 Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
 
@@ -102,6 +105,8 @@ Worklib is the directory where all the compiled codes are stored while Snapshot 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
 
 ### Fig 6: Nclaunch Window
+![Screenshot 2024-11-21 152528](https://github.com/user-attachments/assets/b6ec3982-6f03-419e-bda7-cb787a598ba2)
+
 
 ## Step 1: Compilation:
 
@@ -126,6 +131,8 @@ Left side select the file and in Tools : launch verilog compiler with current se
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ### Fig 7: Compiled database in worklib
+![Screenshot 2024-11-21 152804](https://github.com/user-attachments/assets/83882d19-b30e-4800-89d8-7dc425ff3915)
+
 
 After compilation it will come under worklib you can see in right side window
 
@@ -160,6 +167,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
 
 ## Fig 8: Elaboration Launch Option
+![Screenshot 2024-11-21 153008](https://github.com/user-attachments/assets/17636cef-03b6-4436-8e5b-5be4e878e046)
 
 ## Step 3: Simulation: 
 
@@ -175,9 +183,12 @@ Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
 
+![Screenshot 2024-11-21 153211](https://github.com/user-attachments/assets/6a1ac576-7585-4a58-b1c3-bc70fdbf4091)
+
 ## Fig 10:Simulation Waveform Window
 
-## Fig 11:Simulation Waveform Window
+![Screenshot 2024-11-21 153245](https://github.com/user-attachments/assets/5cd59b5f-b081-4510-8b38-daecbcda8354)
+
 
 ### Result
 
